@@ -1,12 +1,12 @@
 
-# 🐦 Twitter Scraper: Journalism-Grade Data Extraction Tool  
+# 🐦 X-Ray: Data Extraction Tool  
 ### Built by [@ghazayel](https://x.com/ghazayel) | Powered by Selenium
 
 ---
 
 ### ✨ Overview
 
-Welcome to the **Twitter Scraping Tool** — your trusty sidekick for journalistic investigations, data analysis, or tracking public conversations across **X (formerly Twitter)**. This tool automates the scraping of live tweets within a custom date range, capturing tweet content, timestamps, usernames, retweets, likes, and replies — and outputs everything into a clean `.csv` file 📊.
+Welcome to the **X-Ray Scraping Tool** — your trusty sidekick for journalistic investigations, data analysis, or tracking public conversations across **X (formerly Twitter)**. This tool automates the scraping of live tweets within a custom date range, capturing tweet content, timestamps, usernames, retweets, likes, and replies — and outputs everything into a clean `.csv` file 📊.
 
 > 📰 Whether you're chasing a breaking story or analyzing social sentiment, this script does the heavy lifting for you.
 
@@ -62,8 +62,8 @@ And of course, have **Google Chrome** installed. The script uses your own Chrome
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/twitter-scraper.git
-cd twitter-scraper
+git clone https://github.com/ghazayel/X-Ray-scraper.git
+cd X-Ray-scraper
 ```
 
 2. **Customize your Chrome path:**
@@ -76,7 +76,7 @@ options.add_argument("--user-data-dir=C:\Users\User\AppData\Local\Google\Chrome\
 3. **Run the script:**
 
 ```bash
-python twitter_scraper.py
+python X-Ray_scraper.py
 ```
 
 4. **Input your query:**
